@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>180222-1</title>
+	</head>
+	
+	<body>
+		<table border = "1"><!-- border는 테이블 외곽선의 굵기를 지정한다. border가 없을 시 테두리가 읎다. -->
+			<colgroup>
+			<col style = "width:100px;">
+			<col style = "width:300px;">
+			<col style = "width:100px;">
+			<col style = "width:300px;">
+			</colgroup> <!-- 열의 너비를 개별적으로 조절하는 명령어.
+							 위의 명령어는 열의 너비를 개별적으로 4개 설정했다.-->
+			<tr>
+				<th>이름</th>
+				<td></td>
+				<th>연락처</th>
+				<td></td>
+			</tr>
+			<tr>
+				<th>주소</th>
+				<td colspan="3"></td>
+				<!-- colspan & rowspan은 행&열을 합치는 명령어이다.
+					 여기서는 3행을 합한다는 뜻	-->
+			</tr>
+			<tr>
+				<th>자기소개</th>
+				<td colspan="3"></td>
+			</tr>
+		<table>
+	</body>
+</html>
