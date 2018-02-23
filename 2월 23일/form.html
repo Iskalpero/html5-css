@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 폼</title>
+</head>
+<body>
+	<!-- form 부가옵션에서 method에서 post/get값이 있는데 post의 경우 입력한 값을 비공개로
+		 ,get의 경우에는 입력한 값을 공개해준다.	-->
+	<!-- get형식으로 해보면 값 전송 방식을 알 수 있다. 여기서는 name=입력한값 형태로 주소입력창에 공개된다. -->
+	<!-- title의 경우 넣은 내용은 커서를 갖다댈 때 나온다.-->
+	<form action="#" method="post">
+		<ul>
+			<li>
+			<!-- label태그의 경우 for를 통해 태그의 id와 묶어서 라벨의 글자를 클릭하면 해당 id에 해당하는 태그의
+				 기능을 클릭하는 것과 같다. 밑에껄 돌려보면 된다.-->
+				<label for="v1">나이</label>
+				<input type="text" title="입력" id="v1">
+			</li>
+			<li>
+				<label for="v2">나이2</label><input type="password" title="입력2" id="v2">
+			</li>
+			<li>
+				<label for="v3">나이3</label><input type="text" title="입력3" id="v3">
+			</li>
+		</ul>
+		<input type="submit" title = "누르시오" value="검색">
+	</form>
+</body>
+</html>

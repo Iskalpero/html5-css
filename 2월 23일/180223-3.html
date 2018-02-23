@@ -1,0 +1,48 @@
+<!doctype html>
+
+
+<html lang="ko">
+	<head>
+		<meta charset = "utf-8">
+		<title>180223-3</title>
+	</head>
+	
+	<body>
+		<form method="post">
+			<fieldset>
+				<legend>회원가입</legend>
+				
+				<ul>
+					<input type= "number" min="1" max="10" value="1">스핀
+					<!-- number는 스핀박스(+1,-1씩 시켜주는 버튼 실행 참조)를 지원하는데 브라우저에 따라
+						될 때가 있고 안될 때가 있다.-->
+					<br>
+					<input type="range" min="1" max="3" value="2">
+					<!-- range는 슬라이드 막대로 하는 형식(실행 참조)-->
+					<br>
+					<fieldset>
+						<legend>선택</legend>
+							<label><input type="radio" name="select" value="listen">듣기</label>
+							<label><input type="radio" name="select" value="speaking">말하기</label>
+							<label><input type="radio" name="select" value="grammer">회화</label>
+					</fieldset>
+					<!-- radio는 여러 선택 중 하나만 선택할 수 있도록 하는 기능으로, 
+							name을 통해 이를 묶는다.-->
+					<br>
+					<fieldset>
+						<legend>다중선택</legend>
+							<label><input type="checkbox" name="select1" value="listen">듣</label>
+							<label><input type="checkbox" name="select2" value="listen2">기</label>
+							<label><input type="checkbox" name="select3" value="listen3">듣기</label>
+					</fieldset>
+					<!-- checkbox는 다중선택이 되도록 하는 기능으로, radio와 대조된다.
+							radio와 달리 묶이지 않는다.-->
+							
+					<label>몰라</label>
+					<input type="text"><input type="submit" value="엔터"><input type="reset" value="리셋">
+				<ul>
+			</fieldset>
+		</form>
+	</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="ko">
+
+	<head>
+		<meta charset="utf-8">
+		<title>로그인 화면을 구현</title>
+	</head>
+	<!-- fieldset와 legend를 이용해 로그인 화면을 구현해 본다.-->
+	<body>
+		<form method="post" action="#">
+			<fieldset>
+				<legend>로그인 화면</legend>
+				<ul>
+					<li>
+						<label width="500px" for = "idtext">ID</label>
+						<input type = "text" id="idtext" ><br>
+						<!-- label안에 input을 넣으면 label에서 for로 지정하는 과정을 생략할 수 있다. -->
+						<label width="150px" for = "pwtext">PASSWORD</label>
+						<input type = "password" id="pwtext">
+						<!-- 현상에서 필요한 것 ID / PASSWORD에 동일한 셀주기.-->
+					</li>
+				</ul>
+			</fieldset>
+			<label><input type="date" ></label>
+			<label><input type="date"></label>
+		</form>
+	</body>
+	
+</html>
