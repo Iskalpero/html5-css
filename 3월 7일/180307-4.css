@@ -1,0 +1,51 @@
+div{
+	padding : 20px;
+	border:1px solid #ccc;
+	
+}
+	#container{
+		width:960px;
+		margin:0 auto;
+		/*height:auto값은 default로 적용되고 있다.*/
+	}
+
+	#header{
+		padding:20px;
+		margin-bottom:20px;
+	}
+	
+	#contents{
+		float:left;
+		width:480px;
+		margin-bottom:20px;
+	}	
+		#contents ul li{
+			
+			float:left;
+			padding:5px;
+			margin-right:20px;
+			
+		}
+	
+	#side-left{
+		
+		width:130px;
+		float:left;
+		margin-right:20px;
+		margin-bottom:30px;
+		
+	}
+	/* float를 쓰면 공간을 초과해서라도 표현시켜준다.
+		이를 막기위해서는 float를 사용 후에 다음 것에서 clear:both를 사용해야 한다.*/
+	#side-right{
+		
+		width:160px;
+		float:right;
+		margin-right:20px;
+		margin-bottom:30px;
+		
+	}
+	
+	#footer{
+		clear:both;
+	}

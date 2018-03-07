@@ -1,0 +1,33 @@
+.box1{
+	
+	float:left;
+	width:100px;
+	background:#ffd800;
+	margin-right:10px;
+	padding:20px;
+	
+}
+
+.box2{
+	/* position의 기본값은 static이다. 이는 흐름대로 배치되도록 한다.
+		relative시 이걸 실행시키면 box2가 box1과의 겹치는 부분에서 위에있다.*/
+	position:relative;
+	left:-50px;
+	top:30px;	
+	
+	width:300px;
+	background:#0094FF;
+	float:left;
+	padding:20px;
+}
+
+
+#b1{ z-index:3; background:blue; top:50px;}
+#b2{ z-index:2; background:red; left:50px; top:70px;}
+#b3{ z-index:1; background:yellow; top:80px;}
+.samething{
+	position:absolute;
+	width:100px;
+	height:100px;
+	
+}
