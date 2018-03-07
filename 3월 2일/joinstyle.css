@@ -1,0 +1,17 @@
+body{
+	
+	font-family:맑은고딕;
+	font-size:12px;
+	
+}
+#tit{
+	text-align:center;
+	font-size:50px;
+	
+}
+#jointable{
+	text-align:center;
+	margin:auto;
+	width:"50%";
+}
+
