@@ -1,0 +1,207 @@
+
+@media only screen and(max-width:320px){
+	#container_mobile{
+		
+		width=320px;
+		height=auto;
+		font-size:11px;
+		margin:1.5%;
+		padding:1%;
+		text-align:center;
+		border:1px solid black;
+		
+	}
+	
+	
+		#main{
+			font-family:"궁서";
+			font-size:45px;
+			color:gray;
+			width:100%;
+			height:auto;
+			margin-bottom:2%;
+			border:1px solid black;
+		}
+		
+		#side_left{
+			float:left;
+			margin-bottom:2%;
+			margin-right:2%;
+			border:1px solid black;
+			width:20%;
+			height:auto;		
+		}
+			side_left ul{
+				
+				
+			}
+		
+		#mid{
+			float:left;
+			margin-left:2%;
+			margin-bottom:2%;
+			margin-right:2%;
+			border:1px solid black;
+			width:50%;
+			height:auto;
+			
+		}
+		
+		#side_right{
+			float:right;
+			margin-bottom:2%;
+			margin-left:2%;
+			border:1px solid black;
+			width:19%;
+			height:auto;
+		}
+		
+		#end{
+			clear:both;
+			margin-top:2%;
+			width:100%;
+			height:auto;
+			border:1px solid black;
+			
+		}
+	
+	
+}
+
+
+
+
+
+@media only screen and(max-width:760px){
+	#container_tab{
+		
+		width=760px;
+		height=auto;
+		font-size:11px;
+		margin:10px;
+		padding:5px;
+		text-align:center;
+		border:1px solid black;
+		
+	}
+	
+	
+		#main{
+		font-family:"궁서";
+		font-size:45px;
+		color:gray;
+		width:100%;
+		height:auto;
+		margin-bottom:2%;
+		border:1px solid black;
+		}
+		
+		#side_left{
+			float:left;
+			margin-bottom:2%;
+			margin-right:2%;
+			border:1px solid black;
+			width:20%;
+			height:auto;		
+		}
+			side_left ul{
+				
+				
+			}
+		
+		#mid{
+			float:left;
+			margin-left:2%;
+			margin-bottom:2%;
+			margin-right:2%;
+			border:1px solid black;
+			width:50%;
+			height:auto;
+			
+		}
+		
+		#side_right{
+			float:right;
+			margin-bottom:2%;
+			margin-left:2%;
+			border:1px solid black;
+			width:20%;
+			height:auto;
+		}
+		
+		#end{
+			clear:both;
+			margin-top:2%;
+			width:100%;
+			height:auto;
+			border:1px solid black;
+			
+		}
+}
+
+
+@media only screen and (min-width:960px){
+	#container_pc{
+		
+		width=960px;
+		height=auto;
+		font-size:11px;
+		margin:1%;
+		padding:1%;
+		text-align:center;
+		border:1px solid black;
+		//초기설정.
+		
+	}
+		#main{
+			font-family:"궁서";
+			font-size:45px;
+			color:gray;
+			width:100%;
+			height:auto;
+			margin-bottom:2%;
+			border:1px solid black;
+		}
+		
+		#side_left{
+			float:left;
+			margin-bottom:2%;
+			margin-right:2%;
+			border:1px solid black;
+			width:20%;
+			height:auto;		
+		}
+			side_left ul{
+				
+				
+			}
+		
+		#mid{
+			float:left;
+			margin-left:2%;
+			margin-bottom:2%;
+			margin-right:2%;
+			border:1px solid black;
+			width:50%;
+			height:auto;
+			
+		}
+		
+		#side_right{
+			float:right;
+			margin-bottom:2%;
+			margin-left:2%;
+			border:1px solid black;
+			width:20%;
+			height:auto;
+		}
+		
+		#end{
+			clear:both;
+			margin-top:2%;
+			width:100%;
+			height:auto;
+			border:1px solid black;
+			
+		}
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="ko">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Tic</title>	
+		<style>
+						
+			.box1{
+				
+				height:70px;
+				width:70px;
+				margin:70px;
+				border:1px solid black;
+				
+				animation: background 4s infinite; // rotate 4s infinite alternate;
+			
+			}
+			
+			.box2{
+				
+				height:70px;
+				width:70px;
+				margin:70px;
+				border:1px solid black;
+				
+				animation: background 4s infinite, rotate 4s infinite alternate;
+			}
+			
+			@keyframes rotate{
+			
+					from {
+						transform: perspective(70px) rotateX(0deg) rotateY(0deg);
+					}
+					30%{
+						transform: perspective(70px) rotateX(-180deg) rotateY(0deg);
+					}
+					70% {
+						transform: perspective(70px) rotateX(-0deg) rotateY(-180deg);
+					}
+					to {
+						transform: perspective(70px) rotateX(-180deg) rotateY(-180deg);
+					}
+			
+			}
+			
+			@keyframes background{
+			
+				from {
+					background: red;
+				}
+				
+				30%{
+					background-color:white;
+				}
+
+				50% {
+					background-color: black;
+				}
+
+				to {
+					background-color: blue;
+				}
+				
+			}
+			
+		</style>
+	
+	</head>
+
+	<body>
+		<div class="box1"></div>	
+		<div class="box2"></div>	
+	</body>
+
+</html>

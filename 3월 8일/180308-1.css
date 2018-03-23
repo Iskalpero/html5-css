@@ -1,0 +1,11 @@
+.table1{
+	border: 1px solid black;
+	
+}
+
+.table1 td{
+	
+	border:1px dotted black;
+	padding:20px;
+	text-align:center;
+}
